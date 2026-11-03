@@ -1,0 +1,9 @@
+/data
+cache/
+.pylib/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+results/figures/*.pdf

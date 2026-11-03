@@ -1,0 +1,3 @@
+model,contrast,int8_flips,v4_flips,int8_flips_per_Mbit,v4_flips_per_Mbit,int8_bits,v4_bits
+DS-CNN-S,int8 vs w4a8,5.33,5.67,30.281,64.347,176128.0,88064.0
+DS-CNN-S,int8 vs w4a4,5.33,8.0,30.281,90.843,176128.0,88064.0

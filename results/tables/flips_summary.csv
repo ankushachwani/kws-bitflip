@@ -1,0 +1,13 @@
+model,variant,method,n_seeds,base_acc,total_weight_bits,reached,flips_mean,flips_min,flips_max,flips_sd,bits_per_million,final_acc_mean,label
+s,int8,pbs,3.0,0.9467,176128.0,3.0,5.33,5.0,6.0,0.47,30.281,0.1134,DS-CNN-S
+s,int8,rand,3.0,0.9467,176128.0,0.0,,,,,,0.9407,DS-CNN-S
+s,w4a4,pbs,3.0,0.8927,88064.0,3.0,8.0,6.0,9.0,1.41,90.843,0.1347,DS-CNN-S
+s,w4a4,rand,3.0,0.8927,88064.0,0.0,,,,,,0.8813,DS-CNN-S
+s,w4a8,pbs,3.0,0.9233,88064.0,3.0,5.67,5.0,7.0,0.94,64.347,0.0918,DS-CNN-S
+s,w4a8,rand,3.0,0.9233,88064.0,0.0,,,,,,0.9129,DS-CNN-S
+tc8,int8,pbs,3.0,0.9527,516096.0,0.0,,,,,,0.7278,TC-ResNet8
+tc8,int8,rand,3.0,0.9527,516096.0,0.0,,,,,,0.95,TC-ResNet8
+tc8,w4a4,pbs,3.0,0.9307,258048.0,0.0,,,,,,0.5224,TC-ResNet8
+tc8,w4a4,rand,3.0,0.9307,258048.0,0.0,,,,,,0.9278,TC-ResNet8
+tc8,w4a8,pbs,3.0,0.9407,258048.0,0.0,,,,,,0.6351,TC-ResNet8
+tc8,w4a8,rand,3.0,0.9407,258048.0,0.0,,,,,,0.9436,TC-ResNet8

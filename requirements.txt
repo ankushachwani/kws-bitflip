@@ -1,0 +1,8 @@
+# tested with Python 3.13 on macOS (arm64)
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+matplotlib==3.10.8
+torch==2.11.0
+# torchaudio must match torch; run_all.sh installs it into ./.pylib with --no-deps
+torchaudio==2.11.0

@@ -1,0 +1,5 @@
+{
+ "target_acc": 0.15,
+ "max_flips": 30,
+ "attack_batch": 64
+}
